@@ -1,0 +1,30 @@
+
+  .table {
+    font-size: 20px;
+    color: #333;
+    background-color: #f8f8f8;
+  }
+  .table th {
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #e9ecef;
+  }
+  .table td {
+    padding: 12px;
+    vertical-align: middle;
+  }
+  .table img {
+    max-width: 100%;
+    height: auto;
+  }
+  .loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.75s, visibility 0.75s;
+  }
